@@ -1,0 +1,96 @@
+.largeSize {
+    width: 400px;
+    height: 400px;
+}
+
+
+.disk {
+    background-color: rgb(47, 49, 47);
+    border-radius: 50%;
+}
+
+
+.mainCircle {
+    background: linear-gradient(#252424, #4f504f);
+    position: absolute;
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    top: 395px;
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* prevents absolute from moving*/
+}
+
+
+.subCircle {
+    background-color: rgb(47, 49, 47);
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    width: 420px;
+    height: 450px;
+    top: 350px;
+    right: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* prevents absolute from moving*/
+}
+
+
+.response {
+    width: 250px;
+    height: 65px;
+    font-size: 40px;
+    position: absolute;
+    color: rgb(4, 4, 4);
+    text-align: center;
+    top: 530px;
+    background: linear-gradient(#cdcdcd, #f3f3f3);
+    border-radius: 5px;
+}
+
+
+.textCentral {
+    font-size: 300%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 420px;
+}
+
+
+.startButton {
+    width: 200px !important;
+    height: 75px !important;
+    font-size: 40px !important;
+    position: absolute !important;
+    text-align: center !important;
+    top: 630px !important;
+    border-radius: 120px !important;
+}
+
+
+.green {
+    background-color: rgb(14, 68, 37,0.5);
+    border-top-left-radius: 100%;
+}
+
+
+.red {
+    background-color: rgb(128, 40, 28,0.5);
+    border-top-right-radius: 100%;
+}
+
+
+.yellow {
+    background-color: rgb(173, 141, 13,0.5);
+    border-bottom-left-radius: 100%;
+}
+
+
+.blue {
+    background-color: rgb(37, 108, 154,0.5);
+    border-bottom-right-radius: 100%;
+}
